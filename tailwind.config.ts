@@ -11,11 +11,19 @@ const config: Config = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        black: "#0F1C39",
+        "primary-green": "#419444",
+        "secondary-green": "#E4FFE2",
+        "primary-blue": "#21428C",
+        "lighter-gray": "#FCFCFC",
+        "light-gray": "#6B7385",
+        "light-black": "#0F1C39CC",
+        "footer-text": "#3A495B",
       },
     },
     fontFamily: {
-      sans: ["var(--font-geist-sans)"]
-    }
+      sans: ["var(--font-geist-sans)"],
+    },
   },
   plugins: [],
 };
