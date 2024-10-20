@@ -3,37 +3,48 @@ import Link from "next/link";
 
 export const Navbar = () => {
   return (
-    <nav className="flex justify-between p-4 bg-white shadow-md">
+    <nav className="flex justify-between p-4 shadow-md px-24 py-6 bg-secondary-green">
       <div className="flex items-center">
         <Image
           src="/images/logo.svg"
           alt="Logo"
-          width={40}
-          height={40}
-          className="w-12"
+          width={130}
+          height={25}
+          className="w-32 h-7"
         />
-        <span className="ml-3 font-semibold text-xl">Royal Stone</span>
       </div>
-      <ul className="hidden md:flex space-x-6 items-center">
+      <ul className="hidden md:flex space-x-6 items-center text-light-black">
         <li>
-          <Link href="#about" className="hover:text-green-500">
+          <Link href="#about" className="text-primary-blue font-bold">
+            Home
+          </Link>
+        </li>
+        <li>
+          <Link href="#about" className="">
             About Us
           </Link>
         </li>
         <li>
-          <Link href="#services" className="hover:text-green-500">
-            Services
+          <Link href="#contact" className="">
+            Contact Us
           </Link>
         </li>
         <li>
-          <Link href="#contact" className="hover:text-green-500">
-            Contact
+          <Link href="#services" className="">
+            Privacy Policy
+          </Link>
+        </li>
+        <li>
+          <Link href="#about" className="">
+            Terms Of Service
           </Link>
         </li>
       </ul>
-      <div className="flex items-center space-x-4">
-        <button className="text-green-600">Log In</button>
-        <button className="bg-green-600 text-white px-4 py-2 rounded">
+      <div className="flex items-center space-x-[10px]">
+        <button className="text-primary-green px-5 py-2 rounded-lg bg-white shadow-sm font-semibold">
+          Log In
+        </button>
+        <button className="bg-primary-green text-white px-5 py-2 rounded-lg font-semibold">
           Get Started
         </button>
       </div>
