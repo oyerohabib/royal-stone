@@ -29,7 +29,7 @@ export const Products = () => {
   ];
 
   return (
-    <section className=" py-16 px-24 w-full bg-secondary-green">
+    <section className="py-16 px-24 w-full bg-secondary-green">
       <div className="container mx-auto">
         <h2 className="text-3xl font-extrabold text-center mb-8">
           Our Latest Investment Products

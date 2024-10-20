@@ -5,6 +5,7 @@ import {
   GetStarted,
   Products,
   WhyRoyalStone,
+  Banner,
 } from "@/app/components/Homepage";
 
 export default function Home() {
@@ -16,6 +17,7 @@ export default function Home() {
       <GetStarted />
       <WhyRoyalStone />
       <Products />
+      <Banner />
       <Footer />
     </>
   );
