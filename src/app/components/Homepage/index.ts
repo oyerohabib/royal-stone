@@ -1,6 +1,6 @@
 import { HeroSection } from "./Hero";
 import { Services } from "./Services";
 import { Products } from "./Products";
-import { Steps } from "./Steps";
+import { GetStarted } from "./GetStarted";
 
-export { HeroSection, Services, Products, Steps };
+export { HeroSection, Services, Products, GetStarted };

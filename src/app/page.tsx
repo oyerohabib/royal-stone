@@ -2,7 +2,7 @@ import { Navbar, Footer } from "@/app/components/ui";
 import {
   HeroSection,
   Services,
-  Steps,
+  GetStarted,
   Products,
 } from "@/app/components/Homepage";
 
@@ -12,7 +12,7 @@ export default function Home() {
       <Navbar />
       <HeroSection />
       <Services />
-      <Steps />
+      <GetStarted />
       <Products />
       <Footer />
     </>
