@@ -19,6 +19,7 @@ const config: Config = {
         "light-gray": "#6B7385",
         "light-black": "#0F1C39CC",
         "footer-text": "#3A495B",
+        btn: "#24222F",
       },
     },
     fontFamily: {
