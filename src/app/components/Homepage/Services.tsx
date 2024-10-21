@@ -3,7 +3,7 @@ import Image from "next/image";
 export const Services = () => {
   return (
     <section className="flex flex-col md:flex-row justify-between gap-6 py-16 md:pt-16 px-4 md:px-12 xl:px-24 w-full">
-      <div className="w-full md:w-1/2 flex flex-col md:border-r">
+      <div className="w-full md:w-1/2 flex flex-col xl:border-r">
         <div className="max-w-lg">
           <h2 className="text-3xl font-extrabold mb-4">Our Services</h2>
           <p className="mt-2 text-light-black mb-10">
