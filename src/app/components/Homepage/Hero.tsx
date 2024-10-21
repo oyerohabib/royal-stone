@@ -15,7 +15,7 @@ export const HeroSection = () => {
             odio or
           </p>
           <div className="flex justify-start space-x-2 md:space-x-4">
-            <button className="flex gap-[6px] xxs:gap-2 items-center bg-btn text-white px-[6px] xxs:px-3 md:px-5 py-3 rounded-lg">
+            <button className="flex gap-[6px] xxs:gap-2 items-center bg-btn text-white px-[6px] xxs:px-3 md:px-4 py-3 rounded-lg">
               <Image
                 src={"/images/apple-w.svg"}
                 alt="apple image"
@@ -30,7 +30,7 @@ export const HeroSection = () => {
                 </span>
               </div>
             </button>
-            <button className="flex gap-[6px] xxs:gap-2 items-center bg-btn text-white px-[6px] xxs:px-3 md:px-5 py-3 rounded-lg">
+            <button className="flex gap-[6px] xxs:gap-2 items-center bg-btn text-white px-[6px] xxs:px-3 md:px-4 py-3 rounded-lg">
               <Image
                 src={"/images/google-play.svg"}
                 alt="apple image"
