@@ -5,7 +5,7 @@ export const WhyRoyalStone = () => {
     <section className="flex flex-col md:flex-row justify-between gap-6 py-16 px-4 md:px-12 xl:px-24 w-full">
       <div className="w-full md:w-1/2 flex flex-col">
         <div className="max-w-lg">
-          <h2 className="text-3xl font-extrabold mb-4">
+          <h2 className="text-2xl xxs:text-3xl font-extrabold mb-4">
             Why Royal Stone is the best Choice
           </h2>
           <p className="mt-2 text-light-black">

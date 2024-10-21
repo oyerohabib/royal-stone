@@ -31,7 +31,7 @@ export const Products = () => {
   return (
     <section className="py-16 px-4 md:px-12 xl:px-24 w-full bg-secondary-green">
       <div className="container mx-auto">
-        <h2 className="text-3xl font-extrabold text-center mb-8">
+        <h2 className="text-2xl xxs:text-3xl font-extrabold text-center mb-8">
           Our Latest Investment Products
         </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
