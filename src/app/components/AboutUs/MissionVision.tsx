@@ -3,14 +3,14 @@ import Image from "next/image";
 export const MissionVision = () => {
   return (
     <section
-      className="flex flex-col lg:flex-row justify-between gap-6 md:gap-0 bg-secondary-green
-     py-16 lg:py-0 lg:pt-16 px-4 md:px-12 xl:px-24 w-full"
+      className="flex flex-col lg:flex-row justify-between gap-6 bg-secondary-green
+     pt-12 lg:py-0 lg:pt-16 px-4 md:px-12 xl:px-24 w-full"
     >
       <div className="w-full lg:w-1/2 flex flex-col justify-center gap-5 lg:px-5">
         <h2 className="text-2xl xxs:text-3xl font-extrabold">
           Our Mission & Vision
         </h2>
-        <p className="mt-2 text-light-black mb-10 leading-10">
+        <p className="text-light-black leading-8 lg:leading-10">
           Vivamus in turpis leo nisi. Dictum in non eros potenti. Nulla senectus
           tincidunt gravida vel lectus. Aenean elit amet semper lacinia arcu id
           massa. Purus ut turpis nisl aliquam tellus. Vel ridiculus tristique

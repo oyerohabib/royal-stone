@@ -3,14 +3,14 @@ import Link from "next/link";
 
 export const Navbar = () => {
   return (
-    <nav className="flex justify-between shadow-md px-4 md:px-12 xl:px-24 py-6 bg-secondary-green">
+    <nav className="flex justify-between items-center shadow-md px-4 md:px-12 xl:px-24 py-6 bg-secondary-green">
       <div className="flex items-center">
         <Image
           src="/images/logo.svg"
           alt="Logo"
           width={130}
           height={25}
-          className="w-48"
+          className="w-48 md:w-40 md-custom:w-48"
         />
       </div>
       <div className="block md:hidden">
