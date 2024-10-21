@@ -10,7 +10,7 @@ export const Navbar = () => {
           alt="Logo"
           width={130}
           height={25}
-          className="w-32 h-7"
+          className="w-48"
         />
       </div>
       <div className="block md:hidden">

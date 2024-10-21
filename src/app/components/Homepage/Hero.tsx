@@ -48,7 +48,7 @@ export const HeroSection = () => {
           </div>
         </div>
         <Image
-          src="/images/hero.svg"
+          src="/images/home-hero.svg"
           alt="Person"
           className="w-full md:w-2/5 lg:w-1/2 self-end"
           width={"300"}
