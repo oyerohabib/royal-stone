@@ -21,7 +21,7 @@ export const HeroSection = () => {
                 alt="apple image"
                 width={40}
                 height={40}
-                className="size-8 xl:size-10"
+                className="size-8 md:size-10"
               />
               <div className="text-xs xxs:text-[13px] text-left">
                 Download on the <br />
@@ -36,7 +36,7 @@ export const HeroSection = () => {
                 alt="apple image"
                 width={40}
                 height={40}
-                className="size-8 xl:size-10"
+                className="size-8 md:size-10"
               />
               <div className="text-xs xxs:text-[13px] text-left">
                 Get it on <br />

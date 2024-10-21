@@ -3,8 +3,8 @@ import Link from "next/link";
 
 export const Footer = () => {
   return (
-    <footer className="py-16 px-4 md:px-12 xl:px-24 flex flex-col md:flex-row justify-between w-full bg-secondary-green text-light-black text-sm">
-      <div className="flex flex-col w-3/5">
+    <footer className="pb-16 px-4 md:px-12 xl:px-24 flex flex-col md:flex-row gap-5 md:gap-0 justify-between w-full bg-secondary-green text-light-black text-sm">
+      <div className="flex flex-col w-full md:w-3/5">
         <Image
           src={"/images/logo.svg"}
           alt="logo"
@@ -16,7 +16,7 @@ export const Footer = () => {
           Purus eget arcu faucibus mi velit. Massa placerat sed in malesuada cum
           ornare.
         </h3>
-        <p className="flex gap-2 items-center">
+        <p className="hidden md:flex gap-2 items-center">
           <Image
             src={"/images/copyright.svg"}
             alt="copyright"
@@ -27,7 +27,7 @@ export const Footer = () => {
           Copyright Royal Stone 2024
         </p>
       </div>
-      <div className="flex w-2/5 justify-between">
+      <div className="flex w-full md:w-2/5 justify-between">
         <div className="flex flex-col gap-4">
           <h3 className="font-semibold text-black">COMPANY</h3>
           <ul className="space-y-5">
@@ -53,7 +53,7 @@ export const Footer = () => {
             </li>
           </ul>
         </div>
-        <div className="flex flex-col gap-4">
+        <div className="hidden xxs:flex flex-col gap-4">
           <h3 className="font-semibold text-black">SOCIAL</h3>
           <div className="grid grid-cols-2 gap-4">
             <Link href={"#"}>
@@ -95,21 +95,76 @@ export const Footer = () => {
           </div>
         </div>
         <div className="flex flex-col gap-4">
-          <h3 className="font-semibold text-black">POLICIES</h3>
-          <ul className="space-y-5">
-            <li>
-              <a href="#about" className="hover:underline">
-                Privacy Policy
-              </a>
-            </li>
-            <li>
-              <a href="#about" className="hover:underline">
-                Terms of Service
-              </a>
-            </li>
-          </ul>
+          <div className="flex flex-col gap-4">
+            <h3 className="font-semibold text-black">POLICIES</h3>
+            <ul className="space-y-5">
+              <li>
+                <a href="#about" className="hover:underline">
+                  Privacy Policy
+                </a>
+              </li>
+              <li>
+                <a href="#about" className="hover:underline">
+                  Terms of Service
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div className="xxs:hidden flex flex-col gap-4">
+            <h3 className="font-semibold text-black">SOCIAL</h3>
+            <div className="grid grid-cols-4 gap-2">
+              <Link href={"#"}>
+                <Image
+                  src={"/images/facebook.svg"}
+                  alt="facebook"
+                  width={20}
+                  height={20}
+                  className=""
+                />
+              </Link>
+              <Link href={"#"}>
+                <Image
+                  src={"/images/instagram.svg"}
+                  alt="facebook"
+                  width={20}
+                  height={20}
+                  className=""
+                />
+              </Link>
+              <Link href={"#"}>
+                <Image
+                  src={"/images/x.svg"}
+                  alt="facebook"
+                  width={20}
+                  height={20}
+                  className=""
+                />
+              </Link>
+              <Link href={"#"}>
+                <Image
+                  src={"/images/linkedin.svg"}
+                  alt="facebook"
+                  width={20}
+                  height={20}
+                  className=""
+                />
+              </Link>
+            </div>
+          </div>
         </div>
       </div>
+      <div className="md:hidden flex border w-full border-[#D6EFD4]"></div>
+      <p className="md:hidden flex gap-2 items-center">
+        <Image
+          src={"/images/copyright.svg"}
+          alt="copyright"
+          width={20}
+          height={20}
+          className=""
+        />{" "}
+        Copyright Royal Stone 2024
+      </p>
     </footer>
   );
 };
