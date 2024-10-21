@@ -21,6 +21,15 @@ const config: Config = {
         copyright: "#3A495B",
         btn: "#24222F",
       },
+      screens: {
+        xxs: "365px",
+        xs: "520px",
+        sm: "640px",
+        md: "768px",
+        lg: "1024px",
+        xl: "1280px",
+        "2xl": "1536px",
+      },
     },
     fontFamily: {
       sans: ["var(--font-geist-sans)"],

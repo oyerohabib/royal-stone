@@ -2,10 +2,10 @@ import Image from "next/image";
 
 export const GetStarted = () => {
   return (
-    <section className="flex flex-col md:flex-row justify-between gap-6 pt-24 px-24 w-full bg-secondary-green">
-      <div className="w-1/2 flex flex-col">
+    <section className="flex flex-col md:flex-row justify-between gap-16 md:gap-6 pt-12 md:pt-24 px-4 md:px-12 xl:px-24 w-full bg-secondary-green">
+      <div className="w-full md:w-1/2 flex flex-col">
         <h2 className="text-3xl font-extrabold mb-12">How To Get Started</h2>
-        <div className="flex flex-col gap-24 max-w-[460px]">
+        <div className="flex flex-col gap-12 md:gap-24 max-w-[460px]">
           <div className="flex gap-6">
             <div className="border py-1 px-3 rounded-xl -rotate-45 w-fit self-start bg-white">
               <Image
@@ -68,7 +68,7 @@ export const GetStarted = () => {
           </div>
         </div>
       </div>
-      <div className="w-1/2">
+      <div className="w-full md:w-1/2">
         <div className="max-w-lg">
           <Image
             src={"/images/get-started.svg"}

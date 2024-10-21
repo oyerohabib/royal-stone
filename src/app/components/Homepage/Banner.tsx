@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export const Banner = () => {
   return (
-    <section className="py-16 px-24 w-full bg-secondary-green">
+    <section className="py-16 px-4 md:px-12 xl:px-24 w-full bg-secondary-green">
       <div className="flex flex-col gap-10 items-center justify-center py-10 px-4 bg-primary-green rounded-[20px]">
         <h2 className="text-[40px] leading-[48px] text-white text-center font-extrabold max-w-xl">
           Start putting your money in the right places
