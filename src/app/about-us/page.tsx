@@ -1,5 +1,5 @@
 import { Navbar, Footer } from "@/app/components/ui";
-import { HeroSection, OurStory } from "@/app/components/AboutUs";
+import { HeroSection, OurStory, MissionVision } from "@/app/components/AboutUs";
 
 export default function AboutUs() {
   return (
@@ -7,6 +7,7 @@ export default function AboutUs() {
       <Navbar />
       <HeroSection />
       <OurStory />
+      <MissionVision />
       <Footer />
     </>
   );
