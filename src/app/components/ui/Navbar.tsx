@@ -24,27 +24,27 @@ export const Navbar = () => {
       </div>
       <ul className="hidden md:flex space-x-4 xl:space-x-6 items-center text-light-black">
         <li>
-          <Link href="#about" className="text-primary-blue font-bold">
+          <Link href="/" className="text-primary-blue font-bold">
             Home
           </Link>
         </li>
         <li>
-          <Link href="#about" className="">
+          <Link href="/about-us" className="">
             About Us
           </Link>
         </li>
         <li>
-          <Link href="#contact" className="">
+          <Link href="/contact-us" className="">
             Contact Us
           </Link>
         </li>
         <li>
-          <Link href="#services" className="hidden lg:block">
+          <Link href="/privacy-policy" className="hidden lg:block">
             Privacy Policy
           </Link>
         </li>
         <li>
-          <Link href="#about" className="hidden lg:block">
+          <Link href="/terms-of-service" className="hidden lg:block">
             Terms Of Service
           </Link>
         </li>

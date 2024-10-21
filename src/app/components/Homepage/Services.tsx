@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export const Services = () => {
   return (
-    <section className="flex flex-col lg:flex-row justify-between gap-6 py-16 lg:pt-16 px-4 md:px-12 xl:px-24 w-full">
+    <section className="flex flex-col lg:flex-row justify-between gap-6 py-16 lg:py-0 lg:pt-16 px-4 md:px-12 xl:px-24 w-full">
       <div className="w-full lg:w-1/2 flex flex-col xs:items-center lg:items-start xl:border-r">
         <div className="max-w-lg xs:text-center lg:text-left">
           <h2 className="text-2xl xxs:text-3xl font-extrabold mb-4">
