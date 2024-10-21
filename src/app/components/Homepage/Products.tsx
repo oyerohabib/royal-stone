@@ -34,7 +34,7 @@ export const Products = () => {
         <h2 className="text-2xl xxs:text-3xl font-extrabold text-center mb-8">
           Our Latest Investment Products
         </h2>
-        <div className="flex overflow-x-auto gap-4">
+        <div className="flex overflow-x-auto no-scrollbar gap-4">
           {products.map((product, index) => (
             <div key={index} className="w-full min-w-[250px] space-y-2">
               <Image
