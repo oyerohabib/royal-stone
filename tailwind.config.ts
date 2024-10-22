@@ -18,6 +18,7 @@ const config: Config = {
         "lighter-gray": "#FCFCFC",
         "light-gray": "#6B7385",
         "light-black": "#0F1C39CC",
+        border: "#F2F2F2",
         copyright: "#3A495B",
         btn: "#24222F",
       },

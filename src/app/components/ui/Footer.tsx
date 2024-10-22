@@ -46,9 +46,9 @@ export const Footer = () => {
             {companyLinks.map((pageObj) => {
               return (
                 <li key={pageObj.id}>
-                  <a href={pageObj.path} className="hover:underline">
+                  <Link href={pageObj.path} className="hover:underline">
                     {pageObj.title}
-                  </a>
+                  </Link>
                 </li>
               );
             })}
@@ -102,9 +102,9 @@ export const Footer = () => {
               {PoliciesLinks.map((pageObj) => {
                 return (
                   <li key={pageObj.id}>
-                    <a href={pageObj.path} className="hover:underline">
+                    <Link href={pageObj.path} className="hover:underline">
                       {pageObj.title}
-                    </a>
+                    </Link>
                   </li>
                 );
               })}

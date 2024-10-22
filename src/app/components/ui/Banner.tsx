@@ -1,8 +1,10 @@
 import Image from "next/image";
 
-export const Banner = () => {
+export const Banner = ({ className }: { className?: string }) => {
   return (
-    <section className="pb-16 px-4 md:px-12 xl:px-24 w-full bg-secondary-green">
+    <section
+      className={`pb-16 px-4 md:px-12 xl:px-24 w-full bg-secondary-green ${className}`}
+    >
       <div className="flex flex-col gap-6 sm:gap-10 items-center justify-center py-10 px-2 min-[400px]:px-4 bg-primary-green rounded-[20px]">
         <h2 className="text-2xl sm:text-[40px] sm:leading-[48px] text-white text-center font-extrabold max-w-xl">
           Start putting your money in the right places
