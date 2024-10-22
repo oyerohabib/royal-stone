@@ -1,11 +1,11 @@
-import { Navbar, Footer, Banner } from "@/app/components/ui";
+import { Navbar, Footer, Banner } from "@/components/ui";
 import {
   HeroSection,
   Services,
   GetStarted,
   Products,
   WhyRoyalStone,
-} from "@/app/components/HomePage";
+} from "@/components/HomePage";
 
 export default function Home() {
   return (

@@ -1,5 +1,5 @@
-import { Navbar, Footer, Banner, HeroText } from "@/app/components/ui";
-import { ContactForm } from "@/app/components/ContactUs/ContactForm";
+import { Navbar, Footer, Banner, HeroText } from "@/components/ui";
+import { ContactForm } from "@/components/ContactUs/ContactForm";
 import Image from "next/image";
 
 export default function AboutUs() {

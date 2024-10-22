@@ -1,6 +1,6 @@
 "use client";
 import { useState } from "react";
-import { Input, Button } from "@/app/components/ui";
+import { Input, Button } from "@/components/ui";
 
 export const ContactForm = () => {
   const initialFormValues = {

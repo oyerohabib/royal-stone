@@ -1,5 +1,5 @@
-import { Navbar, Footer, Banner } from "@/app/components/ui";
-import { HeroSection, OurStory, MissionVision } from "@/app/components/AboutUs";
+import { Navbar, Footer, Banner } from "@/components/ui";
+import { HeroSection, OurStory, MissionVision } from "@/components/AboutUs";
 
 export default function AboutUs() {
   return (

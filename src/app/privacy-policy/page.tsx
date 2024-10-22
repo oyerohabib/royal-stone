@@ -1,4 +1,4 @@
-import { Navbar, Footer, Banner } from "@/app/components/ui";
+import { Navbar, Footer, Banner } from "@/components/ui";
 
 export default function AboutUs() {
   return (
