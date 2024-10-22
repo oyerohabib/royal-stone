@@ -1,6 +1,18 @@
 import Image from "next/image";
 import Link from "next/link";
 
+const companyLinks = [
+  { id: 1, title: "Home", path: "/" },
+  { id: 2, title: "About Us", path: "/about-us" },
+  { id: 3, title: "Contact Us", path: "/contact-us" },
+  { id: 3, title: "FAQs", path: "/faqs" },
+];
+
+const PoliciesLinks = [
+  { id: 1, title: "Privacy Policy", path: "/privacy-policy" },
+  { id: 2, title: "Terms Of Service", path: "/terms-of-service" },
+];
+
 export const Footer = () => {
   return (
     <footer className="pb-16 px-4 md:px-12 xl:px-24 flex flex-col md:flex-row gap-5 md:gap-0 justify-between w-full bg-secondary-green text-light-black text-sm">
@@ -31,26 +43,15 @@ export const Footer = () => {
         <div className="flex flex-col gap-4">
           <h3 className="font-semibold text-black">COMPANY</h3>
           <ul className="space-y-5">
-            <li>
-              <a href="#about" className="hover:underline">
-                Home
-              </a>
-            </li>
-            <li>
-              <a href="#about" className="hover:underline">
-                About Us
-              </a>
-            </li>
-            <li>
-              <a href="#contact" className="hover:underline">
-                Contact us
-              </a>
-            </li>
-            <li>
-              <a href="#contact" className="hover:underline">
-                FAQs
-              </a>
-            </li>
+            {companyLinks.map((pageObj) => {
+              return (
+                <li key={pageObj.id}>
+                  <a href={pageObj.path} className="hover:underline">
+                    {pageObj.title}
+                  </a>
+                </li>
+              );
+            })}
           </ul>
         </div>
         <div className="hidden xxs:flex flex-col gap-4">
@@ -98,16 +99,15 @@ export const Footer = () => {
           <div className="flex flex-col gap-4">
             <h3 className="font-semibold text-black">POLICIES</h3>
             <ul className="space-y-5">
-              <li>
-                <a href="#about" className="hover:underline">
-                  Privacy Policy
-                </a>
-              </li>
-              <li>
-                <a href="#about" className="hover:underline">
-                  Terms of Service
-                </a>
-              </li>
+              {PoliciesLinks.map((pageObj) => {
+                return (
+                  <li key={pageObj.id}>
+                    <a href={pageObj.path} className="hover:underline">
+                      {pageObj.title}
+                    </a>
+                  </li>
+                );
+              })}
             </ul>
           </div>
 

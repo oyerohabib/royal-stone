@@ -1,4 +1,4 @@
-import { Navbar, Footer } from "@/app/components/ui";
+import { Navbar, Footer, Banner } from "@/app/components/ui";
 
 export default function AboutUs() {
   return (
@@ -69,7 +69,7 @@ export default function AboutUs() {
           </div>
         </div>
       </section>
-
+      <Banner />
       <Footer />
     </>
   );

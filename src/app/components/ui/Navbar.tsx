@@ -12,7 +12,6 @@ const pageLinks = [
 ];
 
 export const Navbar = () => {
-  // Get the current pathname
   const pathname = usePathname();
 
   return (
