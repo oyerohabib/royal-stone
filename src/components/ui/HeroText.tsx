@@ -5,7 +5,7 @@ type HeroTextProps = {
 
 export const HeroText = ({ heading, subHeading }: HeroTextProps) => {
   return (
-    <section className="flex flex-col gap-2 py-20 px-4 md:px-12 xl:px-24 items-center justify-center text-center bg-secondary-green">
+    <section className="flex flex-col gap-4 py-20 px-4 md:px-12 xl:px-24 items-center justify-center text-center bg-secondary-green">
       <h2 className="text-2xl md:text-3xl xl:text-[40px] font-extrabold text-black">
         {heading}
       </h2>
