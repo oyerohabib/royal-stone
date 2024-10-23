@@ -88,8 +88,8 @@ export const Navbar = () => {
 
       {/* Mobile Menu Drawer */}
       {isMobileMenuOpen && (
-        <div className="fixed top-0 left-0 w-full h-full bg-secondary-green z-50 flex flex-col justify-start items-center py-8 transition-transform duration-300 ease-in-out">
-          <div className="flex justify-between w-full px-4">
+        <div className="fixed top-0 left-0 w-full h-full bg-secondary-green z-50 flex flex-col justify-start items-center py-6 transition-transform duration-300 ease-in-out">
+          <div className="flex justify-between items-center w-full px-4">
             {/* Logo */}
             <Link href={"/"}>
               <Image
@@ -108,7 +108,7 @@ export const Navbar = () => {
                 alt="close"
                 width={40}
                 height={40}
-                className="size-5"
+                className="size-6"
               />
             </div>
           </div>
