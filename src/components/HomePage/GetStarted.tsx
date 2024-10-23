@@ -10,62 +10,67 @@ export const GetStarted = () => {
         <h2 className="text-2xl xxs:text-3xl font-extrabold mb-12">
           How To Get Started
         </h2>
-        <div className="flex flex-col gap-12 lg:gap-20 max-w-[460px]">
-          <div className="flex gap-6">
-            <div className="border py-1 px-3 rounded-xl -rotate-45 w-fit self-start bg-white">
+        <div className="flex flex-col gap-12 lg:gap-20 max-w-[460px] relative">
+          {/* Step 1 */}
+          <div className="flex gap-6 relative">
+            <div className="border py-1 px-3 rounded-xl -rotate-45 w-fit self-start bg-white relative z-10">
               <Image
                 src={"/images/download.svg"}
-                alt="target"
+                alt="download"
                 width={50}
                 height={50}
                 className="size-8 rotate-45"
               />
             </div>
             <div>
-              <h3 className="text-lg font-semibold text-black">
-                Download the Mobile App
-              </h3>
-              <p className="mt-2 text-light-black leading-7">
+              <h3 className="font-bold text-lg">Download the Mobile App</h3>
+              <p>
                 Proin quam varius facilisis urna. Viverra at vitae lacus at ut
                 volutpat. Amet commodo venenatis in congue.
               </p>
             </div>
           </div>
-          <div className="flex gap-6">
-            <div className="border py-1 px-3 rounded-xl -rotate-45 w-fit self-start bg-white">
+
+          {/* Step Line */}
+          <div className="absolute top-[30px] left-[21px] w-[2px] h-[200px] bg-[#D6EFD4]"></div>
+
+          {/* Step 2 */}
+          <div className="flex gap-6 relative">
+            <div className="border py-1 px-3 rounded-xl -rotate-45 w-fit self-start bg-white relative z-10">
               <Image
                 src={"/images/create.svg"}
-                alt="target"
+                alt="create"
                 width={50}
                 height={50}
                 className="size-8 rotate-45"
               />
             </div>
             <div>
-              <h3 className="text-lg font-semibold text-black">
-                Create an Account
-              </h3>
-              <p className="mt-2 text-light-black leading-7">
+              <h3 className="font-bold text-lg">Create an Account</h3>
+              <p>
                 Proin quam varius facilisis urna. Viverra at vitae lacus at ut
                 volutpat. Amet commodo venenatis in congue.
               </p>
             </div>
           </div>
-          <div className="flex gap-6">
-            <div className="border py-1 px-3 rounded-xl -rotate-45 w-fit self-start bg-white">
+
+          {/* Step Line */}
+          <div className="absolute top-[220px] left-[21px] w-[2px] h-[120px] bg-[#D6EFD4]"></div>
+
+          {/* Step 3 */}
+          <div className="flex gap-6 relative">
+            <div className="border py-1 px-3 rounded-xl -rotate-45 w-fit self-start bg-white relative z-10">
               <Image
                 src={"/images/plus.svg"}
-                alt="target"
+                alt="plus"
                 width={50}
                 height={50}
                 className="size-8 rotate-45"
               />
             </div>
             <div>
-              <h3 className="text-lg font-semibold text-black">
-                Make your First Transaction
-              </h3>
-              <p className="mt-2 text-light-black leading-7">
+              <h3 className="font-bold text-lg">Make your First Transaction</h3>
+              <p>
                 Proin quam varius facilisis urna. Viverra at vitae lacus at ut
                 volutpat. Amet commodo venenatis in congue.
               </p>

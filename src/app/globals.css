@@ -20,3 +20,26 @@ body {
     scrollbar-width: none;
   }
 }
+
+.step {
+  position: relative;
+}
+
+.step::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 27px; /* Align with the center of the icon */
+  height: 100%;
+  width: 2px;
+  background-color: #e0e0e0;
+  z-index: -1;
+}
+
+.step:first-child::before {
+  top: 50%; /* Start from the middle for the first step */
+}
+
+.step:last-child::before {
+  height: 50%; /* End at the middle for the last step */
+}
