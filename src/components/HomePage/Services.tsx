@@ -16,7 +16,9 @@ export const Services = () => {
           </p>
 
           <Image
-            src={"/images/services.png"}
+            src={
+              "https://res.cloudinary.com/oyerotech-herokuapp-com/image/upload/v1729686349/services_wdtn1d.png"
+            }
             alt="dashboard services"
             width={600}
             height={600}

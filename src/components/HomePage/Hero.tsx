@@ -48,7 +48,7 @@ export const HeroSection = () => {
           </div>
         </div>
         <Image
-          src="/images/home-hero.png"
+          src="https://res.cloudinary.com/oyerotech-herokuapp-com/image/upload/v1729686349/home-hero_sajirc.png"
           alt="Person"
           className="w-full md:w-2/5 lg:w-1/2 self-end"
           width={"600"}

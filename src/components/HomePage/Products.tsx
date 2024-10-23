@@ -6,25 +6,29 @@ export const Products = () => {
       name: "Pharetra diam vitae duis vash aliquet",
       units: "500",
       status: "Available",
-      image: "/images/products.png",
+      image:
+        "https://res.cloudinary.com/oyerotech-herokuapp-com/image/upload/v1729686350/products_b3m2ja.png",
     },
     {
       name: "Pharetra diam vitae duis vash aliquet",
       units: "600",
       status: "Available",
-      image: "/images/products.png",
+      image:
+        "https://res.cloudinary.com/oyerotech-herokuapp-com/image/upload/v1729686350/products_b3m2ja.png",
     },
     {
       name: "Pharetra diam vitae duis vash aliquet",
       units: "700",
       status: "Available",
-      image: "/images/products.png",
+      image:
+        "https://res.cloudinary.com/oyerotech-herokuapp-com/image/upload/v1729686350/products_b3m2ja.png",
     },
     {
       name: "Pharetra diam vitae duis vash aliquet",
       units: "700",
       status: "Available",
-      image: "/images/products.png",
+      image:
+        "https://res.cloudinary.com/oyerotech-herokuapp-com/image/upload/v1729686350/products_b3m2ja.png",
     },
   ];
 
