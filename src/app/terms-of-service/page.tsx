@@ -4,12 +4,12 @@ export default function AboutUs() {
   return (
     <>
       <Navbar />
-      <section className="px-4 md:px-12 xl:px-24 py-12 bg-secondary-green text-left">
-        <div className="flex flex-col gap-6">
+      <section className="px-4 md:px-12 xl:px-24 py-6 md:py-12 bg-secondary-green text-left">
+        <div className="flex flex-col gap-2 md:gap-6">
           <h1 className="text-xl md:text-3xl xl:text-[40px] font-extrabold">
             Terms Of Service
           </h1>
-          <h3 className="mb-5">Updated Last: 30th September 2024</h3>
+          <h3 className="mb-3 md:mb-5">Updated Last: 30th September 2024</h3>
           <div className="md:text-md xl:text-lg text-light-black max-w-6xl !leading-8 md:!leading-[44px]">
             <p>
               Elit at et amet dis. Tortor in lacus eget purus at malesuada nibh
