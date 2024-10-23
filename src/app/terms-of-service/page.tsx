@@ -4,7 +4,7 @@ export default function AboutUs() {
   return (
     <>
       <Navbar />
-      <section className="px-4 md:px-12 xl:px-24 py-6 md:py-12 bg-secondary-green text-left">
+      <section className="px-4 md:px-12 xl:px-24 md:pt-32 pt-28 md:py-20 bg-secondary-green text-left">
         <div className="flex flex-col gap-2 md:gap-6">
           <h1 className="text-xl md:text-3xl xl:text-[40px] font-extrabold">
             Terms Of Service

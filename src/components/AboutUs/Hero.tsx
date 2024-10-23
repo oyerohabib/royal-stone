@@ -2,13 +2,13 @@ import Image from "next/image";
 
 export const HeroSection = () => {
   return (
-    <section className="px-4 md:px-12 xl:px-24 pt-4 bg-secondary-green text-left">
+    <section className="px-4 md:px-12 xl:px-24 md:pt-32 pt-24 md:py-20 bg-secondary-green text-left">
       <div className="flex flex-col md:flex-row gap-6 items-center justify-between">
         <div className="max-w-2xl md:w-3/5 lg:w-1/2">
-          <h1 className="text-xl md:text-3xl xl:text-[40px] font-extrabold mb-5">
+          <h1 className="text-[27px] md:text-3xl xl:text-[40px] font-extrabold mb-3 sm:mb-5">
             Who we are
           </h1>
-          <p className="md:text-sm xl:text-base text-gray-600 mb-6 lg:mb-10 !leading-7 lg:!leading-10">
+          <p className="md:text-sm xl:text-base text-gray-600 lg:mb-10 !leading-7 lg:!leading-10">
             Vivamus in turpis leo nisi. Dictum in non eros potenti. Nulla
             senectus tincidunt gravida vel lectus. Aenean elit amet semper
             lacinia arcu id massa. Purus ut turpis nisl aliquam tellus. Vel

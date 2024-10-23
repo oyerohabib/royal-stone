@@ -3,7 +3,7 @@ import { NavLinks } from "./NavLinks";
 
 export const Navbar = () => {
   return (
-    <nav className="flex justify-between items-center shadow-md px-4 md:px-12 xl:px-24 py-6 bg-secondary-green">
+    <nav className="flex justify-between items-center px-4 md:px-12 xl:px-24 py-6 bg-secondary-green fixed top-0 w-full z-50">
       <div className="flex items-center">
         <Image
           src="/images/logo.svg"
