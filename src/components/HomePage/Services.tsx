@@ -16,10 +16,10 @@ export const Services = () => {
           </p>
 
           <Image
-            src={"/images/services.svg"}
+            src={"/images/services.png"}
             alt="dashboard services"
-            width={100}
-            height={100}
+            width={600}
+            height={600}
             className="w-full"
           />
         </div>

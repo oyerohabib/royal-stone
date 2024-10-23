@@ -125,7 +125,7 @@ export const Footer = () => {
               </Link>
               <Link href={"#"}>
                 <Image
-                  src={"/images/instagram.svg"}
+                  src={"/images/instagram.png"}
                   alt="facebook"
                   width={20}
                   height={20}

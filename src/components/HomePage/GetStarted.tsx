@@ -81,10 +81,10 @@ export const GetStarted = () => {
       <div className="w-full min-[885px]:w-1/2 xs:items-center max-[885px]:items-center">
         <div className="mx-auto max-w-lg">
           <Image
-            src={"/images/get-started.svg"}
+            src={"/images/get-started.png"}
             alt="our services"
-            width={100}
-            height={100}
+            width={600}
+            height={600}
             className="w-full"
           />
         </div>

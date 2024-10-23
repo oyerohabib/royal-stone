@@ -32,10 +32,10 @@ export const HeroSection = () => {
             </button>
             <button className="flex gap-[6px] xxs:gap-2 items-center bg-btn text-white px-[6px] xxs:px-3 md:px-4 py-3 rounded-lg">
               <Image
-                src={"/images/google-play.svg"}
+                src={"/images/google-play.png"}
                 alt="apple image"
-                width={40}
-                height={40}
+                width={600}
+                height={600}
                 className="size-8 md:size-10"
               />
               <div className="text-xs xxs:text-[13px] text-left">
@@ -48,11 +48,11 @@ export const HeroSection = () => {
           </div>
         </div>
         <Image
-          src="/images/home-hero.svg"
+          src="/images/home-hero.png"
           alt="Person"
           className="w-full md:w-2/5 lg:w-1/2 self-end"
-          width={"300"}
-          height={"300"}
+          width={"600"}
+          height={"600"}
         />
       </div>
     </section>

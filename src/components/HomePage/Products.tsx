@@ -6,25 +6,25 @@ export const Products = () => {
       name: "Pharetra diam vitae duis vash aliquet",
       units: "500",
       status: "Available",
-      image: "/images/products.svg",
+      image: "/images/products.png",
     },
     {
       name: "Pharetra diam vitae duis vash aliquet",
       units: "600",
       status: "Available",
-      image: "/images/products.svg",
+      image: "/images/products.png",
     },
     {
       name: "Pharetra diam vitae duis vash aliquet",
       units: "700",
       status: "Available",
-      image: "/images/products.svg",
+      image: "/images/products.png",
     },
     {
       name: "Pharetra diam vitae duis vash aliquet",
       units: "700",
       status: "Available",
-      image: "/images/products.svg",
+      image: "/images/products.png",
     },
   ];
 
@@ -40,8 +40,8 @@ export const Products = () => {
               <Image
                 src={product.image}
                 alt="product"
-                width={300}
-                height={200}
+                width={600}
+                height={600}
                 className="w-full"
               />
               <h3 className="font-medium max-w-52">{product.name}</h3>

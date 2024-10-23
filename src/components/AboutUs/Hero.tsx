@@ -23,11 +23,11 @@ export const HeroSection = () => {
           </p>
         </div>
         <Image
-          src="/images/about-hero.svg"
+          src="/images/about-hero.png"
           alt="Person"
           className="w-full md:w-2/5 lg:w-1/2 self-end"
-          width={"300"}
-          height={"300"}
+          width={"600"}
+          height={"600"}
         />
       </div>
     </section>
