@@ -1,17 +1,20 @@
 import Image from "next/image";
+import Link from "next/link";
 import { NavLinks } from "./NavLinks";
 
 export const Navbar = () => {
   return (
     <nav className="flex justify-between items-center px-4 md:px-12 xl:px-24 py-6 bg-secondary-green fixed top-0 w-full z-50">
       <div className="flex items-center">
-        <Image
-          src="/images/logo.svg"
-          alt="Logo"
-          width={130}
-          height={25}
-          className="w-44 md:w-40 md-custom:w-44"
-        />
+        <Link href={"/"}>
+          <Image
+            src="/images/logo.svg"
+            alt="Logo"
+            width={130}
+            height={25}
+            className="w-44 md:w-40 md-custom:w-44"
+          />
+        </Link>
       </div>
       <div className="block md:hidden">
         <Image
