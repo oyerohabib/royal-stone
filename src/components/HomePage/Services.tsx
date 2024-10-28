@@ -9,10 +9,10 @@ export const Services = () => {
             Our Services
           </h2>
           <p className="mt-2 text-light-black mb-10">
-            Proin quam varius facilisis urna. Viverra at vitae lacus at ut
-            volutpat. Amet commodo venenatis in congue. Sit eget nullam nunc
-            neque nulla venenatis. Felis ornare nulla eros dolor viverra quis
-            odio or
+            Explore a world of tailored financial solutions designed to help you
+            grow your wealth, secure your future, and achieve your financial
+            goals with confidence. Our services empower you to make smart
+            choices that align with your aspirations.
           </p>
 
           <Image
@@ -39,10 +39,11 @@ export const Services = () => {
           </div>
           <h3 className="text-lg font-semibold">Make an Investment</h3>
           <p className="text-light-black md:pr-4">
-            Proin quam varius facilisis urna. Viverra at vitae lacus at ut
-            volutpat. Amet commodo venenatis in congue. Sit eget nullam nunc
-            neque nulla venenatis. Felis ornare nulla eros dolor viverra quis
-            odio or
+            Take control of your financial journey by investing in curated
+            opportunities that offer sustainable growth. Royal Stone&apos;s
+            investment plans are tailored to fit diverse goals, whether
+            you&apos;re looking to build wealth gradually or generate passive
+            income. Start small or go big — the choice is yours.
           </p>
         </div>
         <div className="flex flex-col gap-4 md:max-w-2xl bg-lighter-gray px-4 py-5 md:p-6 rounded-3xl">
@@ -57,10 +58,11 @@ export const Services = () => {
           </div>
           <h3 className="text-lg font-semibold">Create a Savings Target</h3>
           <p className="text-light-black md:pr-4">
-            Proin quam varius facilisis urna. Viverra at vitae lacus at ut
-            volutpat. Amet commodo venenatis in congue. Sit eget nullam nunc
-            neque nulla venenatis. Felis ornare nulla eros dolor viverra quis
-            odio or
+            Achieve your financial milestones with ease by setting personalized
+            savings targets. Our savings tools help you organize your finances,
+            track your progress, and stay motivated. Whether it&apos;s a dream
+            vacation, education fund, or an emergency reserve, we&apos;ll help
+            you reach your goals.
           </p>
         </div>
         <div className="flex flex-col gap-4 md:max-w-2xl bg-lighter-gray px-4 py-5 md:p-6 rounded-3xl">
@@ -75,10 +77,11 @@ export const Services = () => {
           </div>
           <h3 className="text-lg font-semibold">Invest in Stocks</h3>
           <p className="text-light-black md:pr-4">
-            Proin quam varius facilisis urna. Viverra at vitae lacus at ut
-            volutpat. Amet commodo venenatis in congue. Sit eget nullam nunc
-            neque nulla venenatis. Felis ornare nulla eros dolor viverra quis
-            odio or
+            Dive into the world of stock investments with confidence. Royal
+            Stone provides access to a range of stocks to help you diversify and
+            grow your portfolio. Benefit from expert insights and guidance as
+            you make informed investment decisions and build a solid financial
+            future.
           </p>
         </div>
       </div>

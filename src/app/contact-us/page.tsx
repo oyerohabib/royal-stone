@@ -24,7 +24,7 @@ export default function AboutUs() {
               />
             </div>
             <h3 className="text-lg font-semibold">Chat with us on Whatsapp</h3>
-            <p className="text-light-black md:pr-4">09010201223</p>
+            <p className="text-light-black md:pr-4">+2347019951241</p>
           </div>
           <div className="flex flex-col gap-3 w-full bg-lighter-gray px-4 py-5 md:p-6 rounded-3xl">
             <div className="border p-2 rounded-xl -rotate-45 w-fit">
@@ -37,7 +37,7 @@ export default function AboutUs() {
               />
             </div>
             <h3 className="text-lg font-semibold">Call an Agent</h3>
-            <p className="text-light-black md:pr-4">09010201223</p>
+            <p className="text-light-black md:pr-4">+2347019951241</p>
           </div>
           <div className="flex flex-col gap-3 w-full bg-lighter-gray px-4 py-5 md:p-6 rounded-3xl">
             <div className="border p-2 rounded-xl -rotate-45 w-fit">
@@ -50,7 +50,7 @@ export default function AboutUs() {
               />
             </div>
             <h3 className="text-lg font-semibold">Send a Mail</h3>
-            <p className="text-light-black md:pr-4">Support@royalstone.com</p>
+            <p className="text-light-black md:pr-4">support@royalstone.com</p>
           </div>
         </div>
         <hr className="w-full px-4 md:px-12 xl:px-24" />

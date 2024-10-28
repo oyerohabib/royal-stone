@@ -25,8 +25,8 @@ export const Footer = () => {
           className="w-48 mb-3"
         />
         <h3 className="font-semibold leading-6 max-w-sm mb-5 pr-4">
-          Purus eget arcu faucibus mi velit. Massa placerat sed in malesuada cum
-          ornare.
+          Building a brighter financial future, one step at a time. Royal Stone
+          is here to support you. Join us as we redefine financial independence.
         </h3>
         <p className="hidden md:flex gap-2 items-center">
           <Image

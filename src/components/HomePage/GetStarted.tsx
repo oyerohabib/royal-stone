@@ -25,8 +25,8 @@ export const GetStarted = () => {
             <div>
               <h3 className="font-bold text-lg">Download the Mobile App</h3>
               <p>
-                Proin quam varius facilisis urna. Viverra at vitae lacus at ut
-                volutpat. Amet commodo venenatis in congue.
+                Access Royal Stone&apos;s powerful tools right from your
+                smartphone. Download our app from the Google Play
               </p>
             </div>
           </div>
@@ -48,8 +48,9 @@ export const GetStarted = () => {
             <div>
               <h3 className="font-bold text-lg">Create an Account</h3>
               <p>
-                Proin quam varius facilisis urna. Viverra at vitae lacus at ut
-                volutpat. Amet commodo venenatis in congue.
+                Sign up with ease and start your journey toward financial
+                independence. Our registration process will have you ready to
+                invest in minutes
               </p>
             </div>
           </div>
@@ -71,8 +72,8 @@ export const GetStarted = () => {
             <div>
               <h3 className="font-bold text-lg">Make your First Transaction</h3>
               <p>
-                Proin quam varius facilisis urna. Viverra at vitae lacus at ut
-                volutpat. Amet commodo venenatis in congue.
+                Start building your future by making your first investment or
+                savings deposit. With secure payment.
               </p>
             </div>
           </div>

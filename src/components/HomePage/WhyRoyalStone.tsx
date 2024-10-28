@@ -9,8 +9,10 @@ export const WhyRoyalStone = () => {
             Why Royal Stone is the best Choice
           </h2>
           <p className="mt-2 text-light-black">
-            Proin quam varius facilisis urna. Viverra at vitae lacus at ut
-            volutpat. Amet commodo venenatis in congue.
+            Our commitment to excellence ensures that every product is crafted
+            with precision and care. From our expert team to our rigorous
+            quality control, we&apos;re dedicated to providing you with
+            unmatched value and satisfaction in every investment.
           </p>
         </div>
       </div>

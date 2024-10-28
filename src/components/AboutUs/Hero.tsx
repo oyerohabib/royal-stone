@@ -9,17 +9,15 @@ export const HeroSection = () => {
             Who we are
           </h1>
           <p className="md:text-sm xl:text-base text-gray-600 lg:mb-10 !leading-7 lg:!leading-10">
-            Vivamus in turpis leo nisi. Dictum in non eros potenti. Nulla
-            senectus tincidunt gravida vel lectus. Aenean elit amet semper
-            lacinia arcu id massa. Purus ut turpis nisl aliquam tellus. Vel
-            ridiculus tristique ornare tristique. Risus enim imperdiet accumsan
-            cras sit mauris. At et amet integer in eget suspendisse. Dictum
-            aliquet nunc morbi tristique nec. Ut ultricies porta arcu nam sed.
-            Nulla ac nunc nec natoque velit egestas. Posuere mattis pellentesque
-            ut nisi lectus ultrices risus mauris sem. Eget parturient sit
-            tristique nulla eget lacus imperdiet adipiscing. Commodo tortor arcu
-            nec enim duis. Tincidunt cursus egestas nibh sollicitudin dolor
-            accumsan. Lectus tristiqu
+            Royal Stone is a forward-thinking financial platform dedicated to
+            helping individuals achieve their financial goals. We provide
+            user-friendly investment and savings solutions that make
+            wealth-building accessible to everyone. Our team is driven by a
+            commitment to transparency, trust, and innovation. We aim to empower
+            individuals to take control of their financial futures, offering
+            opportunities that cater to both beginner and experienced investors.
+            From setting up savings goals to diversifying investments, we are
+            here to guide you every step of the way.
           </p>
         </div>
         <Image

@@ -11,16 +11,13 @@ export const MissionVision = () => {
           Our Mission & Vision
         </h2>
         <p className="text-light-black leading-8 lg:leading-10">
-          Vivamus in turpis leo nisi. Dictum in non eros potenti. Nulla senectus
-          tincidunt gravida vel lectus. Aenean elit amet semper lacinia arcu id
-          massa. Purus ut turpis nisl aliquam tellus. Vel ridiculus tristique
-          ornare tristique. Risus enim imperdiet accumsan cras sit mauris. At et
-          amet integer in eget suspendisse. Dictum aliquet nunc morbi tristique
-          nec. Ut ultricies porta arcu nam sed. Nulla ac nunc nec natoque velit
-          egestas. Posuere mattis pellentesque ut nisi lectus ultrices risus
-          mauris sem. Eget parturient sit tristique nulla eget lacus imperdiet
-          adipiscing. Commodo tortor arcu nec enim duis. Tincidunt cursus
-          egestas nibh sollicitudin dolor accumsan. Lectus tristiqu
+          Our mission at Royal Stone is to create a world where financial
+          freedom is achievable for everyone. We aim to equip individuals with
+          the tools and knowledge needed to make informed financial decisions.
+          Our vision is to be the go-to platform for savings and investments,
+          providing a secure environment that fosters growth and confidence. By
+          continuously evolving and improving our services, we are dedicated to
+          helping users build lasting wealth and reach new financial milestones.
         </p>
       </div>
       <div className="w-full lg:w-1/2 flex flex-col items-center">

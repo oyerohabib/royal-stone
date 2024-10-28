@@ -12,59 +12,50 @@ export default function AboutUs() {
           <h3 className="mb-3 md:mb-5">Updated Last: 30th September 2024</h3>
           <div className="md:text-md xl:text-lg text-light-black max-w-6xl !leading-8 md:!leading-[44px]">
             <p>
-              Elit at et amet dis. Tortor in lacus eget purus at malesuada nibh
-              scelerisque. Eu in neque vitae aenean. Commodo maecenas placerat
-              consectetur diam leo. Tristique porttitor nec tristique est varius
-              felis. Ligula donec fames auctor leo pretium lectus. Pulvinar non
-              enim nisi cursus dictum enim sagittis nunc a. A interdum dolor
-              aliquet lacus sagittis. Nisl vestibulum pretium id condimentum at
-              quam vitae eros sed. Sit eget quam mattis sapien massa. Et quisque
-              morbi erat tellus donec urna lorem tellus. In pharetra commodo
-              velit tincidunt. Laoreet consequat diam quis lectus lectus turpis
-              vitae tortor faucibus. Odio quis eleifend vehicula porttitor vitae
-              sit.{" "}
+              At Royal Stone, we prioritize the protection of your personal
+              information. We are committed to maintaining transparency and
+              trust by implementing security measures that safeguard your data.
+              Our privacy practices comply with the highest industry standards,
+              ensuring your information is handled with care and
+              confidentiality. Personal data, such as contact details and
+              purchase history, is collected solely to improve your experience,
+              manage transactions, and enhance our services.{" "}
             </p>{" "}
             <br />
             <p>
-              Ac phasellus arcu suspendisse dolor cras morbi sed magnis. Mattis
-              rutrum eu in neque velit sed. Tellus fringilla iaculis commodo
-              penatibus. Eget purus interdum pulvinar sagittis vel. Ut volutpat
-              egestas at pretium maecenas. Aliquet dignissim pretium interdum
-              dui nec eu. Cursus malesuada sapien ipsum egestas orci erat quis.
-              Sollicitudin sit tempor mauris pellentesque et cras.{" "}
+              We only share your information with trusted third parties for
+              essential services like payment processing and delivery, adhering
+              to strict confidentiality agreements. Rest assured, we do not sell
+              or rent your data to any external parties. Additionally, we use
+              secure storage methods and encryption to protect your data from
+              unauthorized access.{" "}
             </p>
             <br />
             <p>
-              Aenean netus vitae at ac nunc interdum magna. Enim proin
-              condimentum odio eget turpis laoreet massa mollis. A senectus
-              bibendum auctor venenatis dolor nunc. Nulla venenatis ut
-              sollicitudin egestas neque faucibus faucibus aliquam. Euismod
-              sollicitudin consequat enim eget arcu. Venenatis cras integer
-              purus commodo. Vel etiam eget pulvinar vel pellentesque tortor
-              sagittis.{" "}
+              To enhance personalization, we may collect information on your
+              interactions with our website, helping us tailor our services to
+              your preferences. Cookies and similar technologies may be used to
+              gather usage data, improving site functionality and delivering
+              relevant content. You have the option to manage your cookie
+              preferences through your browser settings at any time.{" "}
             </p>
             <br />
             <p>
-              Ligula sed vel ultrices lectus non non varius potenti eget. Ac
-              lorem rhoncus amet amet tempus duis et massa. Commodo accumsan
-              ipsum lectus fringilla quis. Odio sit hendrerit sed nullam
-              pharetra eu diam arcu amet. Sem mi dolor orci sit lacinia id
-              varius in. Eget curabitur ut lectus enim egestas enim a. Rutrum
-              nullam quam elementum ut tortor vulputate duis nunc lectus.
-              Hendrerit volutpat hac phasellus fringilla in feugiat. A facilisis
-              consequat natoque nunc ipsum sit molestie. Nulla massa tristique
-              tempus id sed. Magna ut hac penatibus etiam ligula lacus
-              pellentesque vehicula. Sagittis iaculis non aliquam sit nisl enim
-              turpis arcu et.{" "}
+              Royal Stone remains dedicated to protecting your rights under
+              applicable data protection laws. You have the right to request
+              access to, correction, or deletion of your personal data in line
+              with legal guidelines. Should you have any questions or require
+              further assistance, please contact our customer support team for
+              clarification.{" "}
             </p>
             <br />
             <p>
-              Velit commodo habitant at eros risus accumsan nulla tellus
-              iaculis. Lacinia sit nulla ultricies consequat gravida lacus
-              feugiat in leo. Arcu est ornare aenean ut vitae libero. Lorem
-              pretium rhoncus volutpat posuere quis. A diam tortor placerat in
-              dignissim ullamcorper velit ut quis. Nisi blandit suspendisse eget
-              tortor nunc elementum. Est.
+              By using our services, you agree to this privacy policy and our
+              practices. We may periodically update this policy to reflect
+              changes in our procedures or regulations. We encourage you to
+              review this policy regularly to stay informed on how we protect
+              your privacy. Your trust is essential to us, and we are committed
+              to maintaining it through responsible data management.
             </p>
           </div>
         </div>
