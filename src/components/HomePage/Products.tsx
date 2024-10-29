@@ -1,37 +1,38 @@
+"use server";
 import Image from "next/image";
 
-export const Products = () => {
-  const products = [
-    {
-      name: "Modern Ceramic Vase",
-      units: "500",
-      status: "Available",
-      image:
-        "https://media.istockphoto.com/id/1954362172/photo/clay-flagons-and-vase-on-color-background.webp?a=1&b=1&s=612x612&w=0&k=20&c=petafOF8uK97xv5idk-P8aj8mHwkweafolGgT5iSUpo=",
-    },
-    {
-      name: "Eco-Friendly Wooden Bowl",
-      units: "600",
-      status: "Available",
-      image:
-        "https://media.istockphoto.com/id/1463561971/photo/homemade-lentil-brown-rice-salad.webp?a=1&b=1&s=612x612&w=0&k=20&c=iBd8KygscmgwJPYmkYv7OaJeCM77G9WQbKE5NT8x8j0=",
-    },
-    {
-      name: "Handcrafted Clay Plate",
-      units: "700",
-      status: "Available",
-      image:
-        "https://media.istockphoto.com/id/1461256525/photo/top-view-of-ceramic-dishes-in-working-process-handcrafted-pottery.webp?a=1&b=1&s=612x612&w=0&k=20&c=_7FRmbxkeLkaDXoNo8RpYxSL7evX9dd9OZnwF8QCPmU=",
-    },
-    {
-      name: "Artisan Glass Jar",
-      units: "700",
-      status: "Available",
-      image:
-        "https://media.istockphoto.com/id/1313383992/photo/young-woman-smiling-buying-healthy-artisanal-food-at-small-local-store.webp?a=1&b=1&s=612x612&w=0&k=20&c=0WE4vHUX_NMLm2ReOWtnzgHzR56DPdDWnUm5e46-3G8=",
-    },
-  ];
+const products = [
+  {
+    name: "Modern Ceramic Vase",
+    units: "500",
+    status: "Available",
+    image:
+      "https://res.cloudinary.com/oyerotech-herokuapp-com/image/upload/v1730195183/clay-flagons-and-vase-on-color-background_w0eynb.webp",
+  },
+  {
+    name: "Eco-Friendly Wooden Bowl",
+    units: "600",
+    status: "Available",
+    image:
+      "https://res.cloudinary.com/oyerotech-herokuapp-com/image/upload/v1730195206/homemade-lentil-brown-rice-salad_bew8kf.webp",
+  },
+  {
+    name: "Handcrafted Clay Plate",
+    units: "700",
+    status: "Available",
+    image:
+      "https://res.cloudinary.com/oyerotech-herokuapp-com/image/upload/v1730195221/top-view-of-ceramic-dishes-in-working-process-handcrafted-pottery_ugsfcu.webp",
+  },
+  {
+    name: "Artisan Glass Jar",
+    units: "700",
+    status: "Available",
+    image:
+      "https://res.cloudinary.com/oyerotech-herokuapp-com/image/upload/v1730195232/young-woman-smiling-buying-healthy-artisanal-food-at-small-local-store_j4daqa.webp",
+  },
+];
 
+export const Products = () => {
   return (
     <section className="py-16 px-4 md:px-12 xl:px-24 w-full bg-secondary-green">
       <div className="container mx-auto">
